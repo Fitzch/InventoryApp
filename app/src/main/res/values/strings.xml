@@ -1,0 +1,118 @@
+<resources>
+    <string name="app_name">Inventory App</string>
+
+    <!-- Label for overflow menu option that inserts fake book data into the app [CHAR LIMIT=20] -->
+    <string name="action_insert_dummy_data">Insert Dummy Data</string>
+
+    <!-- Label for overflow menu option that deletes all inventory data in the app [CHAR LIMIT=20] -->
+    <string name="action_delete_all_entries">Delete All Inventory</string>
+
+    <!-- Label for editor menu option to save book and leave editor [CHAR LIMIT=20] -->
+    <string name="action_save">Save</string>
+
+    <!-- Label for editor overflow menu option that deletes the current book [CHAR LIMIT=20] -->
+    <string name="action_delete">Delete</string>
+
+    <!-- Title for the activity to add a new book [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_new_book">Add a Book</string>
+
+    <!-- Title for the activity to edit an existing book -->
+    <string name="editor_activity_title_edit_book">Edit Book</string>
+
+    <!-- Title text for the empty view, which describes the empty bookshelf image [CHAR LIMIT=50] -->
+    <string name="empty_view_title_text">Let\'s start reading...</string>
+
+    <!-- Subtitle text for the empty view that prompts the user to add a book [CHAR LIMIT=50] -->
+    <string name="empty_view_subtitle_text">Get started by adding a book</string>
+
+    <!-- Label for overview category of attributes in the editor [CHAR LIMIT=30] -->
+    <string name="category_overview">Overview</string>
+
+    <!-- Label for the quantity information in the editor -->
+    <string name="category_quantity">Quantity</string>
+
+    <!-- Label for the supplier category in the editor -->
+    <string name="category_supplier">Supplier</string>
+
+    <!-- Text hint for book title field in th editor -->
+    <string name="hint_book_title">Title</string>
+
+    <!-- Text hint for book price field in the editor -->
+    <string name="hint_book_price">19.99</string>
+
+    <!-- Text hint for book quantity field in the editor -->
+    <string name="hint_book_quantity">0</string>
+
+    <!-- Text hint for the supplier name field in the editor -->
+    <string name="hint_supplier_name">Supplier Name</string>
+
+    <!-- Text hint for the supplier phone field in the editor -->
+    <string name="hint_supplier_phone">555&#8211;555&#8211;5555</string>
+
+    <!-- Toast message in editor when current book was successfully deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_book_successful">Book deleted</string>
+
+    <!-- Toast message in editor when current book has failed to be deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_book_failed">Error with deleting book</string>
+
+    <!-- Toast message to show when row insert was successful -->
+    <string name="insert_successful">Book saved</string>
+
+    <!-- Toast message to show when row insert was not successful -->
+    <string name="insert_failed">Error saving book</string>
+
+    <!-- Toast message to show when row update was successful -->
+    <string name="update_successful">Book updated</string>
+
+    <!-- Toast message to show when row update was not successful -->
+    <string name="update_failed">Error updating book</string>
+
+    <!-- Dialog message when user is leaving editor but hasn't saved changes [CHAR LIMIT=NONE] -->
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+
+    <!-- Dialog button text for the option to discard a user's changes [CHAR LIMIT=20] -->
+    <string name="discard">Discard</string>
+
+    <!-- Dialog button text for the option to keep editing the current book [CHAR LIMIT=20] -->
+    <string name="keep_editing">Keep Editing</string>
+
+    <!-- Dialog message to ask the user to confirm deleting the current book [CHAR LIMIT=NONE] -->
+    <string name="delete_dialog_msg">Delete this book?</string>
+
+    <!-- Dialog button text for the option to confirm deleting the current book [CHAR LIMIT=20] -->
+    <string name="delete">Delete</string>
+
+    <!-- Dialog button text for the option to cancel deletion of the current book [CHAR LIMIT=20] -->
+    <string name="cancel">Cancel</string>
+
+    <!-- Text for Sale button -->
+    <string name="sale">Sale</string>
+
+    <!-- Minus sign for decrement button -->
+    <string name="decrement">-</string>
+
+    <!-- Plus sign for increment button -->
+    <string name="increment">+</string>
+
+    <!-- Message informing user that a book title is required -->
+    <string name="title_required">A book title is required</string>
+
+    <!-- Message informing user that all fields are required -->
+    <string name="all_fields_required">All fields are required to save the book</string>
+
+    <!-- Message informing user that the quantity cannot be less than 0 -->
+    <string name="quantity_less_than_zero">The book quantity cannot be less than 0.</string>
+
+    <!-- Message informing the user that there are too many books in stock -->
+    <string name="too_many_books">Stock of any single book must not exceed 100.</string>
+
+    <!-- Label for button to order more books from supplier -->
+    <string name="order_more_books">Order books from supplier</string>
+
+    <!-- Message informing the user that the sale was successful -->
+    <string name="sale_successful">Sale successful</string>
+
+    <!-- Message informing the user that the phone number is incorrectly formatted -->
+    <string name="incorrectly_formatted_phone_number">The phone number is not formatted correctly</string>
+
+</resources>
